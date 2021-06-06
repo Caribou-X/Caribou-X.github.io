@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Caribou-X
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Caribou-X">
+<meta name="description" content="要赶紧，管它骨头还是肉，一转眼就成灰。">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://https://caribou-x.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://https://caribou-x.github.io">
+                    Caribou-X
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        Home
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        Archive
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        Tags
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        About
+                    </a>
+                    
+                    <a class="menu-item" href="https://https://caribou-x.github.io/post/works">
+                        Works
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1623002774791" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://https://caribou-x.github.io">
+                            Caribou-X
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1623002774791" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            Home
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            Archive
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            Tags
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            About
+                        </a>
+                        
+                        <a class="menu-item" href="https://https://caribou-x.github.io/post/works">
+                            Works
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                【翻译】米津玄师「STRAY SHEEP」访谈：历经三年打磨、布满伤痕的宝石 （下）
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        Caribou-X
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2020-08-15</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">15.4
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">4576</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://https://caribou-x.github.io/tag/9tl-MtETa/">Translation</a>
+                                
+                            </span>
+                                        
+                                </div>
+                                
+                        </header>
+                        
+                        <div class="post-content">
+                            <p>2020年8月15日发布于[米学研究所公众号]。仅供个人存档，转载请联系公众号。<br>
+[采访上篇]由直升机老师翻译。<br>
+[采访原文]</p>
+<!-- more -->
+<h2 id="致没能听到专辑的人们">致没能听到专辑的人们</h2>
+<p>—— 第一首「Campanella」中有这样一段歌词：「承接光芒的水晶 反射出熠熠光辉 你给予我的伤痕 也是其中一抹 」。在创作这首歌时，你的心路历程也是刚才所说的那样吗？</p>
+<p><strong>米津</strong>：「Campanella」在这张专辑中是我最后创作的一首，因此与现在的我的心情最为相似。C melo的歌词和我刚才所说的内容很接近。我也希望这首歌能暗含对整张专辑的总结。</p>
+<p>——我感觉「Campanella」不仅是这张专辑重要的一部分，也是能象征这张专辑的一首歌，那么这首歌是怎样诞生的呢。</p>
+<p><strong>米津</strong>：我创作第十五首歌「金丝雀」时非常辛苦，考虑了方方面面终于写出来之后，却陷入了无法满足的精神状态中。后来我灵光一闪，“明白了！缺少的是这个！”因此创作出了「Campanella」。</p>
+<p>——你说明白了之前的不足，是指什么呢？</p>
+<p><strong>米津</strong>：当我进入专辑制作的收尾阶段时，完全没有意识到距离前一张专辑已经有大概三年的时间了。三年的时间，已经足以让初中生成为高中生，高中生成为社会人或者大学生了。我不禁思考，在这三年间与我擦肩而过的人到底有多少呢。擦肩而过就是说，明明喜欢着我的音乐，却不幸去世的人会有多少呢。虽然我并不认识这个人、虽然这样的人并不一定存在，但我想一定有人在听到这张专辑前就去世了。举例来说，就类似于在读到「HUNTER✖️HUNTER」的结局前就去世了，或者在知道「ONE PIECE」的结局前就去世了。想到这些时，不知不觉就会陷入万分自责的心境中去，“我迄今为止都在做些什么啊”。所以经由创作「Campanella」这首歌，在这三年间死去的人——例如素不相识的孩子、虽然我不认识但却对方知道我的人们——就因此确实地存在于世。说是墓碑可能在言语上有些不妥，但我隐隐感到以此为戒或许是我的责任，因此创作了这首歌。</p>
+<p>——「Campanella」这个标题应该是根据《银河铁道之夜》中登场人物的名字取的吧。  所以这首歌描写的是如同书中乔凡尼和康贝瑞拉一般，一方留在原地而一方渐行渐远这样的关系。</p>
+<p><strong>米津</strong>：是的。虽然是唱给康贝瑞拉的歌，但唱歌的人并不是乔凡尼，硬要说的话唱歌的人是以扎内利为原型的。扎内利是个坏心眼的孩子，也是康贝瑞拉死亡的直接原因。我对扎内利有很深的共情。一个人犯下的错误，不管是直接的还是间接的，都可能导致某人的死亡。我觉得自己所做的种种选择都和某人的死亡之间有联系。用时下的话来说，如果我是某种病原体的携带者，但我在不知情的情况下感染了别人，那个人就有可能因此重病去世也说不定。所以很多选择都可能让某人有死亡的可能。我觉得扎内利就是目睹这一事件的人。他和康贝瑞拉的死亡直接相关，一边受此折磨着一边活下去，这和我性格中倾向自罚的部分产生了共鸣。</p>
+<h2 id="对身为流行音乐家的自己的训诫">对身为流行音乐家的自己的训诫</h2>
+<p>——像「Campanella」这样的故事，和别的歌曲的主题似乎也有联系。比如说「温柔的人」这首歌，仿佛是在旁观他人被恶意伤害，或是旁观他人被欺凌。这首歌与其说是隐喻，不如说是简洁地直抒胸臆了。</p>
+<p><strong>米津</strong>：我本来打算在「当脊椎化作蛋白石」巡演中的某一场公开这首歌。当时的歌词中有「当你的脊椎化作蛋白石 我又会在何方」。现在的歌词从根本上来说没有大的改变，副歌的歌词基本是一样的。但是随着时间的流逝，自身的状况和立场在不断变化，因此也不能说两个版本是在完全一致的心境中创作的。前一版本的遣词造句模糊松散，拥有一定自由解释的空间，然而那已经不符合当下的自我。不如说，如果我把前一版本原封不动地发表出来，会感到如芒在背，好像是在逃避作为流行音乐家所应该承担的责任。与其如此，不如用直接而强烈的形式表现出来。</p>
+<p>——我觉得这首歌能深深地触动人心。它将人心中并不优美的、连自己也避而不及的、常年封闭的角落剥离开来并付诸言语，但它也正因如此成为了一首美丽的歌曲。</p>
+<p><strong>米津</strong>：不过我也曾想过，“将这首歌发表于世真的是好事吗”。这首歌直截了当地提及了受欺凌的人们，相比此刻正有此遭遇的人也为数众多吧。这首歌的问世会加深这些人的苦痛也说不定，会掀开他人的疮疤也说不定，但我最终还是选择了发表这首歌。我对此也考虑了很多，例如到底做什么事会伤害到他人，例如时刻以此为戒是否是一种责任等等。</p>
+<h2 id="金丝雀中表达出对变化的肯定">「金丝雀」中表达出对变化的肯定</h2>
+<p>——你说创作专辑中最后一首歌「金丝雀」很辛苦，那么这首歌是在怎样的时期创作的呢。</p>
+<p><strong>米津</strong>：创作这首歌时正是世界因新冠肺炎而陷入混乱的时期，许多音乐家都作了不同的表态，我一边看一边思考自己应该做些什么。我得出的答案是我应该创作新的音乐。创作音乐是我的职业，也是我生活的一部分。我想通过音乐，向那些在痛苦中挣扎的人们传达这样的讯息：你可以继续活下去。或许微不足道，或许只是毫无意义的戏言，即便如此我也认为应该写一首歌，所以我开始了「金丝雀」的创作。但我很苦恼应该写一首怎样的歌。在写「金丝雀」之前，我已经写了一首关于新冠肺炎的歌了。</p>
+<p>——那首歌有收录在这张专辑里吗？</p>
+<p><strong>米津</strong>：并没有。那是一首没有方向性的很阴暗的歌，我觉得不应该发表出来。所以我否决了这首歌，转而想写一首肯定世人的歌。话虽如此，我想表达的不单纯是肯定，而是即便内心被愤怒和失望席卷，也能在此之上表达肯定。我就是一边思考这些一边创作「金丝雀」的，耗费了很大的精力。要用那种和弦、那种曲调等等，考虑了很多。</p>
+<p>——虽然这首歌的创作背景是世界因新冠肺炎而天翻地覆的此刻，除此之外，我认为这首歌也有一种普遍性，即使十年后、二十年后去听也能产生共鸣。你在创作的时候意识到了这一点吗？</p>
+<p><strong>米津</strong>：这首歌很大程度上是想肯定变化这件事。我在音乐创作中，也有过“不得不作出改变”这种半强迫的想法，但这种想法果然还是和我的个性不符。因为新冠肺炎，我们突然面临着发生巨大变化的日常，但最终我们也必须接纳它。有说法是每7年人身上的所有细胞都会更换，我们在生物学上会成为另一个人，所以人是不可能保持一成不变的。比如说在爱上谁的时候会想，“因为你是这样的人，所以我想和你在一起”，但这只是一时的状态，有朝一日会改变的。如果我们执着于此，将所爱之人囚禁在这个状态中，是不可能维持健全的关系的。因此至少对我个人而言，我想要肯定变化这件事。</p>
+<p>——你刚才所说的观点体现在这句歌词里：「你和我 总会改变吧 有时也会争吵 互相伤害吧 在将要失去时相恋 再确认彼此吧」</p>
+<p><strong>米津</strong>：确实如此。我觉得可以这么想：”虽然我喜欢的是你，但其实不是你也行。但也正因如此，至少我更爱现在的你“。我想今后也会不断追问这件事。我现在在何处、世间将怎样变化，不断确认这一点并从中发掘出意义……我想写一首肯定这种变化的歌。这首歌的副歌最初并不是“正因是你才好”而是“不是你也可以”，但这样的话未免太过直接，而且很难和整首歌保持一致，所以改成了“正因是你才可以”。但这句歌词背后的潜台词还是，“就算不是你也可以，所以是你才更好。”</p>
+<h2 id="世人所知的洋次郎和我认识的洋次郎">世人所知的洋次郎和我认识的洋次郎</h2>
+<p>——在「PLACEBO+野田洋次郎」这首歌中和RADWIMPS的野田洋次郎先生合作了。</p>
+<p><strong>米津</strong>：我和洋次郎之前就计划一起写歌了。他带我去各种地方喝酒的时候，对我说“我想我们两个人一起搞点什么”。因为对方的态度很积极，等到合适的时机，就诞生了这首歌。不过一首关于米津玄师和野田洋次郎两人关系的歌曲居然是这种感觉，可能出乎大家的想象吧。</p>
+<p>——说实话，想象不出。<br>
+<strong>米津</strong>：是这样吧（笑）。我是故意为之的。有RADWIMPS创造的绵绵不断的历史在先，我也深受影响，这是合作的背景之一。我也有自信能沿着这一历史创作出优秀的作品，而直觉告诉我此刻不正是最佳时机吗。</p>
+<p>——这首歌给人的印象，与“RADWIMPS和米津玄师的音乐性的中间地带”相去甚远呢。旋律是80年代风，而且比想象中欢快。</p>
+<p><strong>米津</strong>：并不是刻意为之的，对我来说是很自然地写成了这样的歌。自从2015年对盘以来，我们一直保持着联系，和洋次郎一边喝酒一边聊了很多有的没的，真的是很自然地形成了这样的风格。他心中的孤独和与之截然相反的开朗又关心他人的性格……我将世人所知的洋次郎以及我所知的洋次郎结合起来，最终创作出了这样的歌曲。</p>
+<p>——洋次郎在评论里说，两人声音重叠时带来了前所未有的感觉。（参考：https://natalie.mu/music/news/383029）</p>
+<p><strong>米津</strong>：我也一直很期待，当录音时我们声音交叠的一瞬间，仿佛心灵被击中了，毕竟从没有听过洋次郎唱这样的歌曲。他的声音令人感到非常纯净，而且也能感受到和我之间的鲜明对比。我的歌深受他的影响，他又因为我的歌展现出了全新的一面，这让我感到非常开心，能创作这首歌真是太好了。</p>
+<h2 id="我心中的你逐渐放大">我心中的“你”逐渐放大</h2>
+<p>——这张专辑的歌词中出现了很多表示“你”的词汇，给人的感觉是这些歌都以人与人之间的关系为主题。</p>
+<p><strong>米津</strong>：这几年中，我更加感受到自己是被他人赋予生命的。创作流行音乐也是一样，我认为音乐如果不被他人倾听就不能成为音乐。如果没有他人的存在，我也不能成为我，这一想法在创作流行音乐的过程中逐渐变得具体。我作为米津玄师创作的音乐，本质上是我成为米津玄师的过程。我意识到一个人埋头创作归根结底是没有意义的，只有在和不同的人类相处的过程中创作音乐才是健全的。这次我自翻唱了「寻异」，但如果没有菅田将晖也绝对没有现在的我。正因为有他人存在，我的音乐在很大程度上进化了，成为了能被接受的东西。虽然和人相处也有很多麻烦的地方，但正因为有这些家伙存在才有了今天的我，而且我也会有伤害他人的地方。</p>
+<p>——是。</p>
+<p><strong>米津</strong>：原本我是那种想过平稳生活的人，想过那种晴耕雨读的生活、风平浪静的生活，想过那种整天独自窝在家里看电影看漫画的生活。但我终究没有选择这样的生活。从此以后，我的人生中，与我相对的“你”逐渐变得清晰，我音乐的听众在我的私人空间中渐渐占据了很大的一部分。</p>
+<p>——尤其在这几年，你从和他人的结识中受到了很大刺激和影响，是不是这个原因呢。</p>
+<p><strong>米津</strong>：是这样的。比如说在酒席间，有时会从某人的只言片语中获得灵感：“啊，这个表达不错哦”。虽然我很喜欢喝酒，但一喝酒就会变得很感性和主观，也因此产生了不少冲突。平常越是努力维持冷静，在这种场合越会真切地意识到自己与他人之间的不同处。和以前相比，我最近更常感受到世界上有和我完全不同的人存在。那些与我不同的人身上的美感，或许站在我的角度是难以理解的，但我也会思考如何将他人的美感为己所用。因此，他人给予我的影响与音乐息息相关。</p>
+<h2 id="预感将以这张专辑为立足点不断变化">预感将以这张专辑为立足点，不断变化</h2>
+<p>——你有不少从酒会中获得灵感的歌曲呢，比如「Flamingo」、「蔓越莓与松饼」（参考：https://natalie.mu/music/pp/yonezukenshi13）。但这几个月应该没有这样的机会了吧。</p>
+<p><strong>米津</strong>：没有了啊。从三月左右要求自肃开始，我几乎没有和工作之外的人说过话。消息也完全不看，酒也一滴没喝。虽然我一直喝酒，但不喝也完全没什么关系。</p>
+<p>——变得健康了？</p>
+<p><strong>米津</strong>：没有变健康。一直坐在椅子上工作，身体完全得不到运动。自肃结束后参加了「感电」MV拍摄的彩排，结果跳上车的瞬间腰闪了，想着唉已经30岁了啊（笑）。</p>
+<p>——最后还有一个问题。在制作完成之后一段时间的现在，你认为「STRAY SHEEP」是怎样的一张专辑呢。</p>
+<p><strong>米津</strong>：不知悔改而又迷茫的感觉吧。因此专辑的标题也是「STRAY SHEEP」，迷途的羔羊。我已经到了会被人说“该稳重一点好好生活”的年纪了，但还是天天不知悔改地想着“其实这样不也蛮好吗”。这种态度也与音乐息息相关，因为如今我的音乐能被接受，所以会想这样不也挺好吗，但也会想果然还是应当承担更多责任。当然，孩童一般的自由或者天真的一面很美，会引发情感的共鸣，但这还并不足以创作出健全且真挚的作品。尤其是在创作流行音乐的时候，有时我会感受到大人的浅薄和愚蠢的一面：想要更多的人听我的音乐、想要扩大我的音乐的影响力，这是多么浅薄的想法啊。我的音乐可能在无意中伤害他人，随着听的人越来越多，他们可能获得积极感受，也有人会产生抵触情绪，而我自身的表达就可能是引发这种变化的原因。我必须敏感地意识到这是我的责任，而我对此的回答就是这张专辑。至少在这张专辑中，流露出了我将承担着这种责任继续创作美好艺术的深刻意识。</p>
+<p>——也就是说这部作品如实地反映了你在创作「Lemon」之后的变化。作为流行音乐的创作者，你成为了世间关注的焦点，你必须接受这一事实并且给出你的答案。</p>
+<p><strong>米津</strong>：确实如此。但这并不是所有人都一定认可的承担责任的方式，因为我承担着各种各样的期待。因为有影响力，我会被他人指指点点，要求去做这个做那个，可能这张专辑并没有囊括以上一切，但至少这是我认为我当今应当做、能够做到的事情。以及，我有预感今后我将以这张专辑为立足点不断变化。</p>
+<p>——作为听众，我认为这张「STRAY SHEEP」正如您所说，是一张如同宝石一般的专辑。尤其是对于拥有伤痕累累的痛苦过去的人来说，这可能是将自己雕琢为宝石的契机。</p>
+<p><strong>米津</strong>：最终无论如何我们都会倾向于成为这样的人吧。对于容易受伤、容易因为小事一蹶不振的人来说，我们能做到什么呢？当我们接受自己作为大人的肤浅一面，又该如何处理呢，这可能是最值得注意的。</p>
+
+                        </div>
+                        
+                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://https://caribou-x.github.io/post/interview3/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://https://caribou-x.github.io/post/interview3/&sharesource=qzone&title=【翻译】米津玄师「STRAY SHEEP」访谈：历经三年打磨、布满伤痕的宝石 （下）&pics=https://https://caribou-x.github.io/images/avatar.png?v=1623002774791&summary=&lt;p&gt;2020年8月15日发布于[米学研究所公众号]。仅供个人存档，转载请联系公众号。&lt;br&gt;
+[采访上篇]由直升机老师翻译。&lt;br&gt;
+[采访原文]&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://https://caribou-x.github.io/post/interview3/&sharesource=weibo&title=【翻译】米津玄师「STRAY SHEEP」访谈：历经三年打磨、布满伤痕的宝石 （下） + " - " + &lt;p&gt;2020年8月15日发布于[米学研究所公众号]。仅供个人存档，转载请联系公众号。&lt;br&gt;
+[采访上篇]由直升机老师翻译。&lt;br&gt;
+[采访原文]&lt;/p&gt;
+&pic="https://https://caribou-x.github.io/images/avatar.png?v=1623002774791 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://https://caribou-x.github.io/tag/9tl-MtETa/">#
+                                                Translation
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://https://caribou-x.github.io/post/live/">
+                                                                                            【翻译】米津玄师Blog：Live
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://https://caribou-x.github.io/post/hypoxiakills/">
+                                                                                                    鼻塞人生
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        紧急逃生按钮早已作废，且从未生效。
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Caribou-X &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="" target="_blank">
+                                                Gridea
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '',
+                            url: '',
+                            artist: '',
+                            cover: '',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1623002774791);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
